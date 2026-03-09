@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Company\Diagnostic\Tests\Unit;
+namespace Diagnostic\Tests\Unit;
 
-use Company\Diagnostic\Features\BlockRecovery\Core\BlockRecoveryService;
+use Diagnostic\Features\BlockRecovery\Core\BlockRecoveryService;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @group diagnostic
- * @covers \Company\Diagnostic\Features\BlockRecovery\Core\BlockRecoveryService
+ * @covers \Diagnostic\Features\BlockRecovery\Core\BlockRecoveryService
  */
 final class BlockRecoveryServiceTest extends TestCase
 {

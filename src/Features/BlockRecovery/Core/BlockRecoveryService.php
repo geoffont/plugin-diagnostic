@@ -7,7 +7,7 @@
  * Gutenberg en mode recovery. Il coordonne la validation et la liste
  * des posts à récupérer.
  *
- * @package     Company\Diagnostic\Features\BlockRecovery\Core
+ * @package     Diagnostic\Features\BlockRecovery\Core
  * @author      Geoffroy Fontaine
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
@@ -37,7 +37,7 @@
  * et la liste des posts à traiter.
  */
 
-namespace Company\Diagnostic\Features\BlockRecovery\Core;
+namespace Diagnostic\Features\BlockRecovery\Core;
 
 class BlockRecoveryService
 {

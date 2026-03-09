@@ -7,7 +7,7 @@
  * Il gère la récupération automatique des blocs Gutenberg en mode recovery via
  * REST API et AJAX, coordonne les services de récupération et de validation.
  *
- * @package     Company\Diagnostic\Features\BlockRecovery
+ * @package     Diagnostic\Features\BlockRecovery
  * @author      Geoffroy Fontaine
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
@@ -43,12 +43,12 @@
  * - Assets/js/gutenberg-recovery.js (récupération dans éditeur)
  */
 
-namespace Company\Diagnostic\Features\BlockRecovery;
+namespace Diagnostic\Features\BlockRecovery;
 
-use Company\Diagnostic\Common\Constants;
-use Company\Diagnostic\Features\BlockRecovery\UI\Screens\BlockRecoveryScreen;
-use Company\Diagnostic\Features\BlockRecovery\Core\BlockRecoveryService;
-use Company\Diagnostic\Features\BlockRecovery\Core\ValidationRepository;
+use Diagnostic\Common\Constants;
+use Diagnostic\Features\BlockRecovery\UI\Screens\BlockRecoveryScreen;
+use Diagnostic\Features\BlockRecovery\Core\BlockRecoveryService;
+use Diagnostic\Features\BlockRecovery\Core\ValidationRepository;
 
 class Feature
 {

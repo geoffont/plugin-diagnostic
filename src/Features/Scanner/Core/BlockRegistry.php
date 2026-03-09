@@ -5,14 +5,14 @@
  *
  * Gère l'inventaire et la classification des types de blocs.
  *
- * @package     Company\Diagnostic\Features\Scanner\Core
+ * @package     Diagnostic\Features\Scanner\Core
  * @author      Company Development Team
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
  * @version     1.0.0
  */
 
-namespace Company\Diagnostic\Features\Scanner\Core;
+namespace Diagnostic\Features\Scanner\Core;
 
 /**
  * Registre des types de blocs WordPress
@@ -27,7 +27,7 @@ class BlockRegistry
    */
   public static function is_block_registered($blockName)
   {
-    \Company\Diagnostic\Features\Scanner\Core\WPLog::debug('Vérification du bloc: ' . $blockName, '[BlockRegistry]');
+    \Diagnostic\Features\Scanner\Core\WPLog::debug('Vérification du bloc: ' . $blockName, '[BlockRegistry]');
     if (empty($blockName)) {
       return false;
     }
@@ -58,7 +58,7 @@ class BlockRegistry
    */
   public static function get_valid_post_types()
   {
-    \Company\Diagnostic\Features\Scanner\Core\WPLog::debug('Récupération des post types valides', '[BlockRegistry]');
+    \Diagnostic\Features\Scanner\Core\WPLog::debug('Récupération des post types valides', '[BlockRegistry]');
     // Récupérer automatiquement tous les post types publics
     $all_post_types = get_post_types(['public' => true], 'names');
 

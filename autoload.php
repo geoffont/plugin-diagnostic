@@ -8,7 +8,7 @@
  * Il permet d'éviter les require/include manuels et suit les standards
  * modernes de chargement de classes PHP.
  *
- * @package     Company\Diagnostic
+ * @package     Diagnostic
  * @author      Geoffroy Fontaine
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
@@ -33,15 +33,15 @@
  * - src/ (classes à charger)
  *
  * @namespace_mapping:
- * - Company\Diagnostic\ → src/
- * - Company\Diagnostic\Core\ → src/Core/
- * - Company\Diagnostic\Features\ → src/Features/
+ * - Diagnostic\ → src/
+ * - Diagnostic\Core\ → src/Core/
+ * - Diagnostic\Features\ → src/Features/
  */
 
 // Fonction d'autoload PSR-4
 spl_autoload_register(function ($class) {
   // Préfixe du namespace
-  $prefix = 'Company\\Diagnostic\\';
+  $prefix = 'Diagnostic\\';
 
   // Dossier de base pour les fichiers
   $base_dir = __DIR__ . '/src/';

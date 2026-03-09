@@ -7,7 +7,7 @@
  * Il gère l'initialisation, le chargement des fonctionnalités et la coordination
  * entre les différents modules.
  *
- * @package     Company\Diagnostic
+ * @package     Diagnostic
  * @author      Geoffroy Fontaine
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
@@ -38,14 +38,14 @@
  * - Features/Feature.php (fonctionnalités)
  */
 
-namespace Company\Diagnostic;
+namespace Diagnostic;
 
-use Company\Diagnostic\Common\Constants;
-use Company\Diagnostic\Core\AdminMenu;
-use Company\Diagnostic\Core\Assets;
-use Company\Diagnostic\Features\Scanner\Feature as ScannerFeature;
-use Company\Diagnostic\Features\PostGenerator\Feature as PostGeneratorFeature;
-use Company\Diagnostic\Features\BlockRecovery\Feature as BlockRecoveryFeature;
+use Diagnostic\Common\Constants;
+use Diagnostic\Core\AdminMenu;
+use Diagnostic\Core\Assets;
+use Diagnostic\Features\Scanner\Feature as ScannerFeature;
+use Diagnostic\Features\PostGenerator\Feature as PostGeneratorFeature;
+use Diagnostic\Features\BlockRecovery\Feature as BlockRecoveryFeature;
 
 /**
  * Classe principale du plugin Diagnostic

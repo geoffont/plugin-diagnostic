@@ -8,7 +8,7 @@
  * d'administration et sert de point d'entrée pour toute la fonctionnalité
  * de génération de posts de test.
  *
- * @package     Company\Diagnostic\Features\PostGenerator
+ * @package     Diagnostic\Features\PostGenerator
  * @author      Company Development Team
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
@@ -41,10 +41,10 @@
  * - admin_post_diagnostic_post_generator (génération)
  */
 
-namespace Company\Diagnostic\Features\PostGenerator;
+namespace Diagnostic\Features\PostGenerator;
 
-use Company\Diagnostic\Common\Constants;
-use Company\Diagnostic\Features\PostGenerator\UI\Screens\PostGeneratorScreen;
+use Diagnostic\Common\Constants;
+use Diagnostic\Features\PostGenerator\UI\Screens\PostGeneratorScreen;
 
 /**
  * Fonctionnalité PostGenerator - Point d'entrée principal

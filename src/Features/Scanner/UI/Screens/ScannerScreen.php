@@ -8,7 +8,7 @@
  * pagination, et la gestion des requêtes AJAX. Il génère le HTML
  * côté serveur et coordonne avec l'interface JavaScript.
  *
- * @package     Company\Diagnostic\Features\Scanner\UI\Screens
+ * @package     Diagnostic\Features\Scanner\UI\Screens
  * @author      Geoffroy Fontaine
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
@@ -48,11 +48,11 @@
  * - Export des résultats
  */
 
-namespace Company\Diagnostic\Features\Scanner\UI\Screens;
+namespace Diagnostic\Features\Scanner\UI\Screens;
 
-use Company\Diagnostic\Common\Constants;
-use Company\Diagnostic\Common\Functions;
-use Company\Diagnostic\Features\Scanner\Core\GutenbergValidator;
+use Diagnostic\Common\Constants;
+use Diagnostic\Common\Functions;
+use Diagnostic\Features\Scanner\Core\GutenbergValidator;
 
 /**
  * Interface d'administration pour le Scanner
@@ -153,7 +153,7 @@ class ScannerScreen
   private static function render_backups_page(): void
   {
     // Importer la classe XMLBackupGenerator
-    $backups = \Company\Diagnostic\Features\Scanner\Core\XMLBackupGenerator::listBackups();
+    $backups = \Diagnostic\Features\Scanner\Core\XMLBackupGenerator::listBackups();
   ?>
     <div class="diagnostic-scanner-wrap">
       <h1><?php echo esc_html__('Sauvegardes Scanner', Constants::TEXT_DOMAIN); ?></h1>

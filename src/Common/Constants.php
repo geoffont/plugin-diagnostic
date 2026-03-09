@@ -7,7 +7,7 @@
  * incluant les versions, noms, capacités, nonces et autres valeurs fixes.
  * Il sert de référentiel unique pour éviter la duplication de valeurs.
  *
- * @package     Company\Diagnostic\Common
+ * @package     Diagnostic\Common
  * @author      Geoffroy Fontaine
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
@@ -32,7 +32,7 @@
  * - Plugin.php (initialisation)
  */
 
-namespace Company\Diagnostic\Common;
+namespace Diagnostic\Common;
 
 /**
  * Constantes globales du plugin Diagnostic

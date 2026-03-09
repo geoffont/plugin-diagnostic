@@ -6,7 +6,7 @@
  * Version: 1.0.0
  * Author: Geoffroy Fontaine
  * 
- * @package Company\Diagnostic
+ * @package Diagnostic
  */
 
 // Exit if accessed directly
@@ -24,7 +24,7 @@ define('DIAGNOSTIC_VERSION', '2.0.0');
 require_once __DIR__ . '/autoload.php';
 
 // Initialiser le plugin
-use Company\Diagnostic\Plugin;
+use Diagnostic\Plugin;
 
 /**
  * Initialisation du plugin

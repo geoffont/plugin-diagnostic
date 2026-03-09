@@ -7,7 +7,7 @@
  * du plugin dans l'interface WordPress. Il configure le menu principal
  * et coordonne l'ajout des sous-menus par les différentes fonctionnalités.
  *
- * @package     Company\Diagnostic\Core
+ * @package     Diagnostic\Core
  * @author      Geoffroy Fontaine
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
@@ -37,9 +37,9 @@
  * - admin_menu (ajout des menus)
  */
 
-namespace Company\Diagnostic\Core;
+namespace Diagnostic\Core;
 
-use Company\Diagnostic\Common\Constants;
+use Diagnostic\Common\Constants;
 
 /**
  * Gestionnaire des menus d'administration
@@ -113,7 +113,7 @@ class AdminMenu
    */
   private static function display_features_status(): void
   {
-    $plugin = \Company\Diagnostic\Plugin::instance();
+    $plugin = \Diagnostic\Plugin::instance();
     $features = $plugin->get_features();
 
     if (empty($features)) {
@@ -143,8 +143,8 @@ class AdminMenu
    */
   private static function get_feature_display_name(string $feature_class): string
   {
-    // Exemple: "Company\Diagnostic\Features\Scanner\Feature" -> "Scanner"
-    // Exemple: "Company\Diagnostic\Features\PostGenerator\Feature" -> "PostGenerator"
+    // Exemple: "Diagnostic\Features\Scanner\Feature" -> "Scanner"
+    // Exemple: "Diagnostic\Features\PostGenerator\Feature" -> "PostGenerator"
 
     $parts = explode('\\', $feature_class);
 

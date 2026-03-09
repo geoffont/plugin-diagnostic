@@ -5,7 +5,7 @@ declare(strict_types=1);
 /**
  * Bootstrap pour les tests unitaires du plugin Diagnostic.
  *
- * @package Company\Diagnostic\Tests
+ * @package Diagnostic\Tests
  */
 
 $root = dirname(__DIR__, 4);

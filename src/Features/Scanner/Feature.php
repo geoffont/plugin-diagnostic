@@ -7,7 +7,7 @@
  * Il gère l'enregistrement des menus, le chargement des assets, les hooks AJAX
  * et sert de point d'entrée principal pour toute la fonctionnalité Scanner.
  *
- * @package     Company\Diagnostic\Features\Scanner
+ * @package     Diagnostic\Features\Scanner
  * @author      Geoffroy Fontaine
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
@@ -37,10 +37,10 @@
  * - Assets/css/scanner-interface.css (styles)
  */
 
-namespace Company\Diagnostic\Features\Scanner;
+namespace Diagnostic\Features\Scanner;
 
-use Company\Diagnostic\Common\Constants;
-use Company\Diagnostic\Features\Scanner\UI\Screens\ScannerScreen;
+use Diagnostic\Common\Constants;
+use Diagnostic\Features\Scanner\UI\Screens\ScannerScreen;
 
 /**
  * Fonctionnalité Scanner - Point d'entrée principal

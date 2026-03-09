@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Company\Diagnostic\Tests\Unit;
+namespace Diagnostic\Tests\Unit;
 
-use Company\Diagnostic\Features\Scanner\Core\WPLog;
+use Diagnostic\Features\Scanner\Core\WPLog;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @group diagnostic
- * @covers \Company\Diagnostic\Features\Scanner\Core\WPLog
+ * @covers \Diagnostic\Features\Scanner\Core\WPLog
  */
 final class WPLogTest extends TestCase
 {

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Company\Diagnostic\Tests\Unit;
+namespace Diagnostic\Tests\Unit;
 
-use Company\Diagnostic\Features\Scanner\Feature;
+use Diagnostic\Features\Scanner\Feature;
 use PHPUnit\Framework\TestCase;
 use WP_REST_Request;
 
 /**
  * @group diagnostic
- * @covers \Company\Diagnostic\Features\Scanner\Feature
+ * @covers \Diagnostic\Features\Scanner\Feature
  */
 final class ScannerFeatureTest extends TestCase
 {

@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Company\Diagnostic\Tests\Unit;
+namespace Diagnostic\Tests\Unit;
 
-use Company\Diagnostic\Features\Scanner\Core\BlockRegistry;
-use Company\Diagnostic\Features\Scanner\Core\WPLog;
+use Diagnostic\Features\Scanner\Core\BlockRegistry;
+use Diagnostic\Features\Scanner\Core\WPLog;
 use PHPUnit\Framework\TestCase;
 use WP_Block_Type;
 use WP_Block_Type_Registry;
 
 /**
  * @group diagnostic
- * @covers \Company\Diagnostic\Features\Scanner\Core\BlockRegistry
+ * @covers \Diagnostic\Features\Scanner\Core\BlockRegistry
  */
 final class BlockRegistryTest extends TestCase
 {

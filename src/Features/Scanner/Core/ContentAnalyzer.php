@@ -5,14 +5,14 @@
  *
  * Analyse les blocs Gutenberg et détecte les blocs en mode recovery.
  *
- * @package     Company\Diagnostic\Features\Scanner\Core
+ * @package     Diagnostic\Features\Scanner\Core
  * @author      Geoffroy Fontaine
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
  * @version     1.0.0
  */
 
-namespace Company\Diagnostic\Features\Scanner\Core;
+namespace Diagnostic\Features\Scanner\Core;
 
 use Exception;
 
@@ -51,7 +51,7 @@ class ContentAnalyzer
     // Vérifier les validations existantes pour ce post
     $validationRepo = apply_filters('diagnostic_get_validation_repository', null);
     if (!$validationRepo) {
-      $validationRepo = new \Company\Diagnostic\Features\BlockRecovery\Core\ValidationRepository();
+      $validationRepo = new \Diagnostic\Features\BlockRecovery\Core\ValidationRepository();
     }
     
     // 1. Validation des blocs parsés
@@ -392,7 +392,7 @@ class ContentAnalyzer
 
     if (!$block_type) {
       // WARNING : Bloc non enregistré (peut être un problème)
-      \Company\Diagnostic\Features\Scanner\Core\WPLog::warning("Bloc non enregistré: {$block_name}", '[ContentAnalyzer]');
+      \Diagnostic\Features\Scanner\Core\WPLog::warning("Bloc non enregistré: {$block_name}", '[ContentAnalyzer]');
       return 'missing';
     }
 
@@ -473,7 +473,7 @@ class ContentAnalyzer
       // Si le HTML régénéré est différent du HTML sauvegardé, le bloc est en recovery
       if ($saved_normalized !== $regenerated_normalized) {
         // WARNING : Bloc en recovery mode détecté
-        \Company\Diagnostic\Features\Scanner\Core\WPLog::warning(
+        \Diagnostic\Features\Scanner\Core\WPLog::warning(
           "Bloc {$block_name} en recovery mode - HTML différent",
           '[ContentAnalyzer]'
         );
@@ -486,7 +486,7 @@ class ContentAnalyzer
     } catch (\Exception $e) {
       // En cas d'erreur lors de la régénération, considérer comme potentiellement en recovery
       // ERROR : Erreur critique lors de la validation
-      \Company\Diagnostic\Features\Scanner\Core\WPLog::error(
+      \Diagnostic\Features\Scanner\Core\WPLog::error(
         "Erreur lors de la validation du bloc {$block_name}: " . $e->getMessage(),
         '[ContentAnalyzer]'
       );
@@ -568,7 +568,7 @@ class ContentAnalyzer
     foreach ($recovery_markers as $marker) {
       if (stripos($html, $marker) !== false) {
         // WARNING : Marqueur de recovery détecté dans le HTML
-        \Company\Diagnostic\Features\Scanner\Core\WPLog::warning(
+        \Diagnostic\Features\Scanner\Core\WPLog::warning(
           "Bloc {$block_name} contient le marqueur de recovery '{$marker}'",
           '[ContentAnalyzer]'
         );

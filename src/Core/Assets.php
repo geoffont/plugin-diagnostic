@@ -7,7 +7,7 @@
  * Il gère les styles et scripts partagés, les dépendances globales et
  * l'enregistrement conditionnel des ressources selon les pages d'administration.
  *
- * @package     Company\Diagnostic\Core
+ * @package     Diagnostic\Core
  * @author      Geoffroy Fontaine
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
@@ -37,9 +37,9 @@
  * - admin_enqueue_scripts (chargement assets)
  */
 
-namespace Company\Diagnostic\Core;
+namespace Diagnostic\Core;
 
-use Company\Diagnostic\Common\Constants;
+use Diagnostic\Common\Constants;
 
 /**
  * Gestionnaire global des assets

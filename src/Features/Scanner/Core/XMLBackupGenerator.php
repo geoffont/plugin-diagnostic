@@ -5,16 +5,16 @@
  *
  * Génère des fichiers XML de sauvegarde pour les posts problématiques.
  *
- * @package     Company\Diagnostic\Features\Scanner\Core
+ * @package     Diagnostic\Features\Scanner\Core
  * @author      Geoffroy Fontaine
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
  * @version     1.0.0
  */
 
-namespace Company\Diagnostic\Features\Scanner\Core;
+namespace Diagnostic\Features\Scanner\Core;
 
-use Company\Diagnostic\Common\Constants;
+use Diagnostic\Common\Constants;
 
 /**
  * Générateur de sauvegardes XML
@@ -45,15 +45,15 @@ class XMLBackupGenerator
    */
   public static function generateBackup(array $postsWithIssues, array $scanResults): array
   {
-    \Company\Diagnostic\Features\Scanner\Core\WPLog::info('Génération de sauvegarde XML', '[XMLBackupGenerator]');
+    \Diagnostic\Features\Scanner\Core\WPLog::info('Génération de sauvegarde XML', '[XMLBackupGenerator]');
     try {
       // Créer le répertoire de sauvegarde si nécessaire
       $backupDir = self::ensureBackupDirectory();
-      \Company\Diagnostic\Features\Scanner\Core\WPLog::info('Répertoire de sauvegarde: ' . $backupDir, '[XMLBackupGenerator]');
+      \Diagnostic\Features\Scanner\Core\WPLog::info('Répertoire de sauvegarde: ' . $backupDir, '[XMLBackupGenerator]');
 
       // Générer le nom de fichier avec timestamp
       $filename = self::generateBackupFilename();
-      \Company\Diagnostic\Features\Scanner\Core\WPLog::info('Nom du fichier de sauvegarde: ' . $filename, '[XMLBackupGenerator]');
+      \Diagnostic\Features\Scanner\Core\WPLog::info('Nom du fichier de sauvegarde: ' . $filename, '[XMLBackupGenerator]');
       $filepath = $backupDir . '/' . $filename;
 
       // Créer le document XML

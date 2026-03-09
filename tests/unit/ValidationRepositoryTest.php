@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Company\Diagnostic\Tests\Unit;
+namespace Diagnostic\Tests\Unit;
 
-use Company\Diagnostic\Features\BlockRecovery\Core\ValidationRepository;
+use Diagnostic\Features\BlockRecovery\Core\ValidationRepository;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @group diagnostic
- * @covers \Company\Diagnostic\Features\BlockRecovery\Core\ValidationRepository
+ * @covers \Diagnostic\Features\BlockRecovery\Core\ValidationRepository
  */
 final class ValidationRepositoryTest extends TestCase
 {

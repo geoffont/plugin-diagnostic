@@ -8,7 +8,7 @@
  * image, liste, etc.) avec du contenu aléatoire mais cohérent pour
  * tester le rendu et la compatibilité des blocs.
  *
- * @package     Company\Diagnostic\Features\PostGenerator\Core
+ * @package     Diagnostic\Features\PostGenerator\Core
  * @author      Geoffroy Fontaine
  * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
@@ -39,9 +39,9 @@
  * - Layout blocks (columns, group, separator)
  */
 
-namespace Company\Diagnostic\Features\PostGenerator\Core;
+namespace Diagnostic\Features\PostGenerator\Core;
 
-use Company\Diagnostic\Common\Constants;
+use Diagnostic\Common\Constants;
 
 /**
  * Générateur de blocs Gutenberg
