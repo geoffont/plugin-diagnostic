@@ -102,7 +102,7 @@ validate_block_with_wordpress($block, $block_name)
 
 ```php
 // Chemin du fichier build
-$build_file = "/themes/sncf-holding/blocks/{slug}/build/index.js"
+$build_file = "/themes/my-theme/blocks/{slug}/build/index.js"
 
 // 1. Extraire les balises JSX du build actuel
 preg_match_all('/\.(?:jsx|jsxs|createElement)\)\("(\w+)"/i', $build_content)
@@ -209,7 +209,7 @@ Les blocs `create-block/*` sont des **blocs JavaScript-only**. Le HTML n'est PAS
 ### Exemple de fichier build minifié
 
 ```javascript
-// /themes/sncf-holding/blocks/card-banner/build/index.js
+// /themes/my-theme/blocks/card-banner/build/index.js
 save:function(){return(0,l.jsx)("li",{
     children:(0,l.jsx)("div",{
         className:"card-banner",
@@ -415,7 +415,7 @@ Le scanner génère automatiquement une sauvegarde XML des posts avec problèmes
 ### PHP
 
 ```php
-use Company\Diagnostic\Features\Scanner\Core\GutenbergValidator;
+use Diagnostic\Features\Scanner\Core\GutenbergValidator;
 
 // Lancer une analyse complète
 $results = GutenbergValidator::run_analysis([
