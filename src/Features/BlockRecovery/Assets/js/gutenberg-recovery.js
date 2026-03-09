@@ -5,9 +5,9 @@
  * la récupération automatique des blocs invalides. Il utilise les APIs
  * natives de Gutenberg pour créer et remplacer les blocs.
  *
- * @package     Company\Diagnostic\Features\BlockRecovery
+ * @package     Diagnostic\Features\BlockRecovery
  * @author      Geoffroy Fontaine
- * @copyright   2025 Company
+ * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
  * @version     2.0.0
  * @since       2.0.0

@@ -4,9 +4,9 @@
  * Ce module gère la communication AJAX avec le serveur et coordonne
  * l'affichage des résultats du scanner PHP.
  *
- * @package     Company\Diagnostic\Features\Scanner
+ * @package     Diagnostic\Features\Scanner
  * @author      Geoffroy Fontaine
- * @copyright   2025 Company
+ * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
  * @version     2.0.0
  * @since       1.0.0

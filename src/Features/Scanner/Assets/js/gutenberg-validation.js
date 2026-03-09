@@ -8,9 +8,9 @@
  * - Le HTML sauvegardé dans la base de données
  * - Le HTML régénéré par save.js avec les mêmes attributs
  *
- * @package     Company\Diagnostic\Features\Scanner
+ * @package     Diagnostic\Features\Scanner
  * @author      Geoffroy Fontaine
- * @copyright   2025 Company
+ * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
  * @version     1.0.0
  *

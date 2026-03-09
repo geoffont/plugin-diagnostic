@@ -5,9 +5,9 @@
  * en mode recovery. Il orchestre la récupération batch via iframes, la validation
  * automatique, les filtres, et la mise à jour de l'UI en temps réel.
  *
- * @package     Company\Diagnostic\Features\BlockRecovery
+ * @package     Diagnostic\Features\BlockRecovery
  * @author      Geoffroy Fontaine
- * @copyright   2025 Company
+ * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
  * @version     2.0.0
  * @since       2.0.0

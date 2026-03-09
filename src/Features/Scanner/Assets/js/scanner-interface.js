@@ -6,9 +6,9 @@
  * interactions entre les modules Core, Pagination et Filters.
  *
  * @file        scanner-interface.js
- * @package     Company\Diagnostic\Features\Scanner
+ * @package     Diagnostic\Features\Scanner
  * @author      Geoffroy Fontaine
- * @copyright   2025 Company
+ * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
  * @version     3.0.0
  * @since       1.0.0

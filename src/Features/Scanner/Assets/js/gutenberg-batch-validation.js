@@ -7,7 +7,7 @@
  *
  * Performance : ~200ms/post au lieu de ~15-30s/post (N iframes)
  *
- * @package     Company\Diagnostic\Features\Scanner
+ * @package     Diagnostic\Features\Scanner
  * @version     1.0.0
  *
  * @workflow:

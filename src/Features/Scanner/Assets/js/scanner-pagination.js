@@ -6,9 +6,9 @@
  * des tableaux et la mise à jour des informations de pagination.
  *
  * @file        scanner-pagination.js
- * @package     Company\Diagnostic\Features\Scanner
+ * @package     Diagnostic\Features\Scanner
  * @author      Geoffroy Fontaine
- * @copyright   2025 Company
+ * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
  * @version     1.0.0
  * @since       1.0.0
