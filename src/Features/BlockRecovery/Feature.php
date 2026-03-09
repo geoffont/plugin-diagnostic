@@ -9,7 +9,7 @@
  *
  * @package     Company\Diagnostic\Features\BlockRecovery
  * @author      Geoffroy Fontaine
- * @copyright   2025 Company
+ * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
  * @version     2.0.0
  * @since       2.0.0

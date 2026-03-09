@@ -10,7 +10,7 @@
  *
  * @package     Company\Diagnostic\Features\PostGenerator\Core
  * @author      Geoffroy Fontaine
- * @copyright   2025 Company
+ * @copyright   2025 Geoffroy Fontaine
  * @license     GPL-2.0+
  * @version     1.0.0
  * @since       1.0.0

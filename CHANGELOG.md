@@ -152,6 +152,4 @@ et ce projet adhère au [Versioning Sémantique](https://semver.org/lang/fr/).
 
 ---
 
-**Version 1.0.0** - Plugin fonctionnel et prêt pour la production  
-**Développé par** : Équipe Technique SNCF  
-**License** : Usage interne SNCF
+**Version 1.0.0** - Plugin fonctionnel et prêt pour la production

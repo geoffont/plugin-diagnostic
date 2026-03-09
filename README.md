@@ -1,10 +1,5 @@
 # Plugin Diagnostic WordPress
 
-[![WordPress 5.0+](https://img.shields.io/badge/WordPress-5.0+-blue)](https://wordpress.org)
-[![PHP 7.4+](https://img.shields.io/badge/PHP-7.4+-blue)](https://www.php.net)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub Tests](https://img.shields.io/badge/Tests-PHPUnit-green)](tests/)
-
 Plugin WordPress de diagnostic pour détecter et corriger les blocs Gutenberg problématiques.
 
 ## Fonctionnalités

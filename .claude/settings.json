@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo edit geoffont/plugin-diagnostic --add-topic wordpress --add-topic gutenberg --add-topic diagnostic --add-topic plugin --add-topic php)",
+      "Bash(gh repo view geoffont/plugin-diagnostic --json topics --jq '.topics[]')"
+    ]
+  }
+}
